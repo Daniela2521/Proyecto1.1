@@ -1,6 +1,11 @@
 # Importar dependencias
 from flask import Flask, jsonify, request
 from flask_mysqldb import MySQL
+
+
+print("hacer  peticion a BBVA bancomer de sldo del cliente")
+
+
 # Creando la aplicación
 app = Flask(__name__)
 # Configuración de la conexión con la base de datos
